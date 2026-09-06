@@ -217,7 +217,8 @@ h6 {
   width: 100%;
   height: 100vh;
   //background: url("../img/compressjpgmain.jpg") top right;
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/main.jpg") center center no-repeat;
+  //background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/main.jpg") center center no-repeat;
+  background: url("../img/4.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -295,6 +296,16 @@ h6 {
   margin: 15px 0 0 0;
   font-size: 35px;
 }
+
+#hero #herodetails {
+  position: relative;
+  color: #d2d2d2;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
 #hero p span {
   color: $hoverColor;
   letter-spacing: 1px;
@@ -576,8 +587,14 @@ section {
   # About Me
   --------------------------------------------------------------*/
 
+.about {
+  background-color: #d7dbe3;
+
+  }
+
 .about .image {
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/about.jpg") center center no-repeat;
+  //background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/about.jpg") center center no-repeat;
+  background: url("../img/about.JPG") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -700,7 +717,7 @@ section {
 }
 
 .resume .img-fluid {
-  height: 50px;
+  height: 40px;
   width: 50px;
   margin-right: 1rem;
   transition: 0.2s;

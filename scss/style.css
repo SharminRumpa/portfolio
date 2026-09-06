@@ -167,7 +167,6 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
-
   .navbar ul {
     display: none;
   }
@@ -228,7 +227,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/main.jpg") center center no-repeat;
+  background: url("../img/4.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -263,27 +262,9 @@ h6 {
   font-weight: 600;
   font-family: "Satisfy", serif;
   color: white;
-  -webkit-animation-name: change-color, grow-shrink, expand;
-          animation-name: change-color, grow-shrink, expand;
-  -webkit-animation-duration: 15s, 15s, 15s;
-          animation-duration: 15s, 15s, 15s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes change-color {
-  25% {
-    color: white;
-  }
-  50% {
-    color: #f3a200;
-  }
-  75% {
-    color: #f3a200;
-  }
-  100% {
-    color: white;
-  }
+  animation-name: change-color, grow-shrink, expand;
+  animation-duration: 15s, 15s, 15s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes change-color {
@@ -300,19 +281,9 @@ h6 {
     color: white;
   }
 }
-@-webkit-keyframes grow-shrink {
-  50% {
-    transform: scale(1.1);
-  }
-}
 @keyframes grow-shrink {
   50% {
     transform: scale(1.1);
-  }
-}
-@-webkit-keyframes expand {
-  50% {
-    word-spacing: 2rem;
   }
 }
 @keyframes expand {
@@ -325,6 +296,15 @@ h6 {
   color: #74828f;
   margin: 15px 0 0 0;
   font-size: 35px;
+}
+
+#hero #herodetails {
+  position: relative;
+  color: #d2d2d2;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
 }
 
 #hero p span {
@@ -357,17 +337,7 @@ h6 {
   background: #f3a200;
   color: white;
   text-decoration: none;
-  -webkit-animation: fa-spin 2s infinite linear;
-          animation: fa-spin 2s infinite linear;
-}
-
-@-webkit-keyframes fa-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
+  animation: fa-spin 2s infinite linear;
 }
 @keyframes fa-spin {
   0% {
@@ -401,15 +371,6 @@ h6 {
 #hero .btn-scroll:hover {
   color: #f3a200;
 }
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(5px);
-  }
-  100% {
-    transform: translateY(-5px);
-  }
-}
 @keyframes up-down {
   0% {
     transform: translateY(5px);
@@ -427,17 +388,14 @@ h6 {
   #hero {
     text-align: center;
   }
-
   #hero h1 {
     font-size: 4rem;
   }
-
   #hero p {
     margin-top: 10px;
     font-size: 1.5rem;
     line-height: 24px;
   }
-
   #hero .btn-scroll {
     justify-content: center;
   }
@@ -446,11 +404,9 @@ h6 {
   #hero {
     text-align: center;
   }
-
   #hero h1 {
     font-size: 3rem;
   }
-
   #hero p {
     font-size: 1.3rem;
   }
@@ -459,15 +415,12 @@ h6 {
   #hero {
     text-align: center;
   }
-
   #hero h1 {
     font-size: 2rem;
   }
-
   #hero p {
     font-size: 1rem;
   }
-
   #hero .social-links a {
     width: 25px;
     height: 30px;
@@ -541,7 +494,6 @@ section {
     font-size: 28px;
     margin-bottom: 15px;
   }
-
   .section-title span {
     font-size: 38px;
   }
@@ -550,7 +502,6 @@ section {
   .section-title h2 {
     font-size: 1.6rem;
   }
-
   .section-title p {
     font-size: 0.8rem;
   }
@@ -605,11 +556,9 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
-
   .breadcrumbs ol {
     display: block;
   }
-
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -617,8 +566,12 @@ section {
 /*--------------------------------------------------------------
   # About Me
   --------------------------------------------------------------*/
+.about {
+  background-color: #d7dbe3;
+}
+
 .about .image {
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/about.jpg") center center no-repeat;
+  background: url("../img/about.JPG") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -749,7 +702,7 @@ section {
 }
 
 .resume .img-fluid {
-  height: 50px;
+  height: 40px;
   width: 50px;
   margin-right: 1rem;
   transition: 0.2s;
@@ -1324,7 +1277,6 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1359,15 +1311,6 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #ffc85a;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 @keyframes animate-loading {
   0% {
@@ -1491,12 +1434,10 @@ section {
   #footer h1 {
     font-size: 1.8rem;
   }
-
   #footer .social-links a {
     width: 25px;
     height: 30px;
   }
-
   #footer h3 {
     font-size: 25px;
     font-weight: 600;
