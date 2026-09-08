@@ -339,6 +339,14 @@ h6 {
   text-decoration: none;
   animation: fa-spin 2s infinite linear;
 }
+
+#hero a {
+  color: #FDD835;
+}
+
+#hero a:hover {
+  color: #149ddd;
+}
 @keyframes fa-spin {
   0% {
     transform: rotate(0deg);
@@ -434,7 +442,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgba(243, 247, 253, 0.2705882353);
+  background-color: #f3f4f7;
 }
 
 .section-title {
@@ -571,7 +579,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.JPG") center center no-repeat;
+  background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -716,7 +724,7 @@ section {
   # Testimonials
   --------------------------------------------------------------*/
 .skills {
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/features.jpg") no-repeat;
+  background: url("../img/skills.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -890,7 +898,7 @@ section {
   # Testimonials
   --------------------------------------------------------------*/
 .testimonials {
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/testimonials.jpg") no-repeat;
+  background: url("../img/services.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1006,6 +1014,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background: url("../img/project.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1332,7 +1347,7 @@ section {
   # Footer
   --------------------------------------------------------------*/
 #footer {
-  background: url("https://priyoshopbackup.blob.core.windows.net/priyoshop-dev/Images/footer.jpg") top center no-repeat;
+  background: url("../img/Footer.png") top center no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
